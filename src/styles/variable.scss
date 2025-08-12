@@ -1,0 +1,14 @@
+:root{
+    --color-primary:#FF6C89;
+    --color-black:#373737;
+    --color-gray100:#6D6D6D;
+    --color-gray80:#B5B5B5; 
+    --color-gray50:#F5F5F5;
+    --color-white: #FAFAFA;
+}
+
+$gradation-left: var(--gradation, linear-gradient(90deg, #404040 0%, #373737 100%));
+$gradation-right: var(--gradation, linear-gradient(90deg, #373737 0%,  #404040 100%));
+
+$desktop-size: 1440px;
+$tablet-size: 1024px;

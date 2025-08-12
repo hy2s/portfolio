@@ -1,0 +1,67 @@
+#main {
+  height: 100vh;
+  background-color: var(--color-black);
+  .main-wrap {
+    max-width: $desktop-size;
+    height: 100%;
+    margin: 0 auto;
+    padding: 60px 70px;
+    background-repeat: no-repeat;
+    @include flex(column, space-between, center);
+    gap: 50px;
+    @include tablet {
+      background-size: 100%;
+      background-position: center left;
+      padding: 60px 60px;
+    }
+    > p {
+      width: 100%;
+      text-align: right;
+      color: var(--color-gray80);
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+    .main-content {
+      width: 100%;
+      @include flex(row, space-between, flex-end);
+      .main-left {
+        @include flex(column, center, flex-start);
+        gap: 15px;
+        color: var(--color-white);
+        p {
+          font-size: 4rem;
+          font-weight: 400;
+        }
+        h2 {
+          font-size: 6rem;
+          font-weight: 400;
+          span {
+            font-weight: 700;
+          }
+        }
+        h1 {
+          font-size: 8rem;
+          font-weight: 400;
+          span {
+            font-weight: 800;
+            color: var(--color-primary);
+          }
+        }
+      }
+      .main-nav {
+        @include flex(column, center, flex-end);
+        gap: 20px;
+        > * {
+          font-size: 3.5rem;
+          font-weight: 700;
+          color: var(--color-white);
+          cursor: pointer;
+        }
+      }
+    }
+    .scroll-icon {
+      font-size: 7rem;
+      color: var(--color-gray80);
+    }
+  }
+}

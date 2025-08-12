@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Photoshop",
+    "badge": "GTQ 1급 보유",
+    "img": "/images/skill/photoshop.png"
+  },
+  {
+    "title": "Illustrator",
+    "badge": "GTQi 2급 보유",
+    "img": "/images/skill/illustrator.png"
+  },
+  {
+    "title": "Figma",
+    "badge": null,
+    "img": "/images/skill/figma.png"
+  },
+  {
+    "title": "Xd",
+    "badge": null,
+    "img": "/images/skill/xd.png"
+  },
+  {
+    "title": "Git/Github",
+    "badge": null,
+    "img": "/images/skill/github.png"
+  },
+  {
+    "title": "Slack",
+    "badge": null,
+    "img": "/images/skill/slack.png"
+  },
+  {
+    "title": "HTML",
+    "badge": "웹디자인기능사 보유",
+    "img": "/images/skill/html.png"
+  },
+  {
+    "title": "CSS",
+    "badge": null,
+    "img": "/images/skill/css.png"
+  },
+  {
+    "title": "Javascript",
+    "badge": null,
+    "img": "/images/skill/javascript.png"
+  },
+  {
+    "title": "React",
+    "badge": null,
+    "img": "/images/skill/react.png"
+  },
+  {
+    "title": "Sass",
+    "badge": null,
+    "img": "/images/skill/sass.png"
+  },
+  {
+    "title": "Supabase",
+    "badge": null,
+    "img": "/images/skill/supabase.png"
+  }
+]
