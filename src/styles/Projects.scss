@@ -1,0 +1,81 @@
+#projects {
+  height: 100%;
+  padding: 50px 0;
+  @include flex(column, center, flex-start);
+  gap: 50px;
+  background: $gradation-left;
+  position: relative;
+  .project-nav {
+    padding: 1rem;
+    @include flex();
+    gap: 1rem;
+    background-color: var(--color-black);
+    border-radius: 50px;
+    li {
+      padding: 1.5rem 2.5rem;
+      border-radius: 50px;
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--color-gray80);
+      cursor: pointer;
+      user-select: none;
+      transition: 0.5s;
+      &.active {
+        background-color: var(--color-white);
+        color: var(--color-primary);
+      }
+    }
+  }
+  .project-card-wrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    .project-card {
+      padding: 2.5rem 1.8rem;
+      @include flex(column, center, center);
+      gap: 3rem;
+      @include bg-style();
+      cursor: pointer;
+      .card-img {
+        height: 314px;
+        @include flex();
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .project-content {
+        width: 100%;
+        padding: 0 1.5rem;
+        @include flex(column, center, flex-start);
+        gap: 1.2rem;
+        h2 {
+          color: var(--color-white);
+          font-size: 2.5rem;
+          font-weight: 600;
+        }
+        p {
+          color: var(--color-gray80);
+          font-size: 1.8rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.project-tag {
+  @include flex(row, flex-start, center);
+  gap: 1rem;
+  li {
+    @include flex();
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    background-color: var(--color-gray100);
+    color: var(--color-gray80);
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
