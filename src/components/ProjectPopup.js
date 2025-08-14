@@ -14,9 +14,11 @@ const ProjectPopup = ({id, project, onClose}) => {
         <div className="popup-top" style={{backgroundColor: item.details.bgColor}}>
           <div className="popup-top-1">
             <ul className="project-tag">
-              <li style={{color: item.details.bgColor}}>{item.categories[0]}</li>
-              <li style={{color: item.details.bgColor}}>{item.categories[1]}</li>
-              <li style={{color: item.details.bgColor}}>{item.categories[2]}</li>
+              {
+                item.categories.map((category, idx)=>{
+                  return ( <li key={idx} style={{color: item.details.bgColor}}>{category}</li> )
+                })
+              }
             </ul>
             <div className="popup-title">
               <h1>{item.title}</h1>

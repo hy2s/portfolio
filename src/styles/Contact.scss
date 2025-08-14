@@ -1,0 +1,60 @@
+#contact {
+  @include flex(column, center, center);
+  gap: 12rem;
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+  background-position: center;
+  .section-wrap {
+    @include flex(column, center, center);
+    hr {
+      width: 17rem;
+      border-color: var(--color-gray80);
+    }
+    .section-title {
+      span {
+        color: var(--color-primary);
+      }
+    }
+    .contact-btn-wrap {
+      @include flex();
+      gap: 2.2rem;
+      a {
+        padding: 3rem 3.5rem;
+        @include bg-style();
+        @include flex();
+        gap: 1.1rem;
+        color: var(--color-white);
+        svg {
+          font-size: 3rem;
+        }
+        h2 {
+          font-size: 3rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .contact-ment {
+    color: var(--color-white);
+    text-align: center;
+    h3 {
+      font-size: 2.5rem;
+      font-weight: 200;
+      margin-bottom: 2rem;
+      span {
+        font-weight: 800;
+      }
+    }
+    h2 {
+      font-size: 3rem;
+      font-weight: 500;
+    }
+  }
+  .footer {
+    color: var(--color-gray80);
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    line-height: 2.2rem;
+  }
+}

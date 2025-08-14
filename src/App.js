@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe";
 import SkillTools from "./components/SkillTools";
 import TopBtn from "./components/TopBtn";
 import Projects from "./components/Projects";
-import ProjectPopup from "./components/ProjectPopup";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <AboutMe />
       <SkillTools />
       <Projects />
-      {/* <ProjectPopup /> */}
+      <Contact />
     </div>
   );
 };

@@ -43,8 +43,8 @@ const Projects = () => {
           {
             project
               .filter(item => {
-                if (activeTab === "all") return true; // "All" 탭이면 전부 보여줌
-                return item.type.includes(activeTab); // 선택된 탭 이름과 카테고리 비교
+                if (activeTab === "all") return true;
+                return item.type.includes(activeTab);
               })
               .map((item, idx)=>{
                 return (
