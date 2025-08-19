@@ -46,66 +46,102 @@ const ProjectPopup = ({id, project, onClose}) => {
               }
             </li>
           </ul>
-          <ul className="popup-section">
-            <li>제작 기여도</li>
-            <li>
-              <img src={item.details.myRole}/>
-            </li>
-          </ul>
-          <ul className="popup-section">
-            <li>주요 기능<br/>& 구현 포인트</li>
-            <li>
-              {
-                item.details.features.map((features, idx)=>{
-                  return ( <p key={idx}>{features}</p> )
-                })
-              }
-            </li>
-          </ul>
-          <ul className="popup-section">
-            <li>사용 스킬<br/>& 기술 스택</li>
-            <li>
-              {
-                item.details.skillTool.map((skill, idx)=>{
-                  return ( <p key={idx}>{skill}</p> )
-                })
-              }
-            </li>
-          </ul>
-          <ul className="popup-section">
-            <li>회고</li>
-            <li>
-              <div className="Refactoring">
-                <h3>[ 문제점 ]</h3>
-                <p>{item.details.Refactoring[0]}</p>
-              </div>
-              <div className="Refactoring">
-                <h3>[ 해결 방법 ]</h3>
-                <p>{item.details.Refactoring[1]}</p>
-              </div>
-              <div className="Refactoring">
-                <h3>[ 리팩토링 포인트 ]</h3>
-                <p>{item.details.Refactoring[2]}</p>
-              </div>
-            </li>
-          </ul>
-          <ul className="popup-section">
-            <li>디자인 시스템</li>
-            <li><img src={item.details.designSystem}/></li>
-          </ul>
+          {item.details.myRole && (
+            <ul className="popup-section">
+              <li>제작 기여도</li>
+              <li>
+                <img src={item.details.myRole}/>
+              </li>
+            </ul>
+            )}
+          {item.details.features && (
+            <ul className="popup-section">
+              <li>주요 기능<br/>& 구현 포인트</li>
+              <li>
+                {
+                  item.details.features.map((features, idx)=>{
+                    return ( <p key={idx}>{features}</p> )
+                  })
+                }
+              </li>
+            </ul>
+            )}
+          {item.details.myRoleDesign && (
+            <ul className="popup-section">
+              <li>디자인<br/>기여 영역</li>
+              <li>
+                {
+                  item.details.myRoleDesign.map((myRoleDesign, idx)=>{
+                    return ( <p key={idx}>{myRoleDesign}</p> )
+                  })
+                }
+              </li>
+            </ul>
+          )}
+          {item.details.learned && (
+            <ul className="popup-section">
+              <li>프로젝트에서<br/>배운 점</li>
+              <li>
+                {
+                  item.details.learned.map((learned, idx)=>{
+                    return ( <p key={idx}>{learned}</p> )
+                  })
+                }
+              </li>
+            </ul>
+          )}
+          {item.details.skillTool && (
+            <ul className="popup-section">
+              <li>사용 스킬<br/>& 기술 스택</li>
+              <li>
+                {
+                  item.details.skillTool.map((skill, idx)=>{
+                    return ( <p key={idx}>{skill}</p> )
+                  })
+                }
+              </li>
+            </ul>
+          )}
+          { item.details.Refactoring && (
+              <ul className="popup-section">
+                <li>회고</li>
+                <li>
+                  <div className="Refactoring">
+                    <h3>[ 문제점 ]</h3>
+                    <p>{item.details.Refactoring[0]}</p>
+                  </div>
+                  <div className="Refactoring">
+                    <h3>[ 해결 방법 ]</h3>
+                    <p>{item.details.Refactoring[1]}</p>
+                  </div>
+                  <div className="Refactoring">
+                    <h3>[ 리팩토링 포인트 ]</h3>
+                    <p>{item.details.Refactoring[2]}</p>
+                  </div>
+                </li>
+              </ul>
+            )}
+          {item.details.designSystem && (
+              <ul className="popup-section">
+                <li>디자인 시스템</li>
+                <li><img src={item.details.designSystem}/></li>
+              </ul>
+            )}
         </div>
       <div className="popup-side">
         <div className="close-btn" onClick={()=>onClose()}>
           <IoClose />
         </div>
-      <div className="link-btn">
-        <a href={item.details.links.github} target="_blank" rel="noopener noreferrer">
-          <div>
-            <IoLogoGithub />
-          </div>
-          <p>GitHub</p>
-        </a>
-      </div>
+      {item.details.links.github && (
+        <div className="link-btn">
+          <a href={item.details.links.github} target="_blank" rel="noopener noreferrer">
+            <div>
+              <IoLogoGithub />
+            </div>
+            <p>GitHub</p>
+          </a>
+        </div>
+      )}
       <div className="link-btn">
         <a href={item.details.links.site} target="_blank" rel="noopener noreferrer">
           <div>

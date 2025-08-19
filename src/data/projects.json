@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "team-01",
     "title": "DREAMLAND Parking",
     "subtitle": "놀이공원 사전 주차 예약 전용 웹앱",
     "categories": ["React 기반", "팀 프로젝트", "예약 시스템"],
@@ -47,7 +47,7 @@
     }
   },
   {
-    "id": 2,
+    "id": "team-02",
     "title": "PuppyParty!",
     "subtitle": "반려견 이벤트 용품 쇼핑몰 웹사이트",
     "categories": ["React 기반", "팀 프로젝트", "쇼핑몰"],
@@ -92,7 +92,7 @@
     }
   },
   {
-    "id": 3,
+    "id": "team-03",
     "title": "KeyStudio",
     "subtitle": "키보드 커스터마이징 웹사이트",
     "categories": ["팀 프로젝트", "커스터마이징", "디자인 100%"],
@@ -113,25 +113,88 @@
       ],
       "myRole": "/images/projects/dreamland/detail.png",
       "features": ["3D 키보드 커스터마이징 기능과 상품 주문, 조회 및 취소 기능, 커뮤니티 기능이 있습니다."],
+      "myRoleDesign": ["메인페이지, 커스터마이징 페이지, 상품 페이지(목록/상세/주문 및 결제), 로그인/회원가입, 마이페이지, 로고의 디자인을 맡았습니다."],
       "skillTool": [
         "Frontend: React, React Router, react-slick, react-confetti, SCSS",
         "Design: Figma, Photoshop, Illustrator",
         "Version Control: Git / GitHub"
       ],
-      "Refactoring": [
-        "프로젝트 초반, 첫 번째 소스 병합 과정에서 팀원 전부가 Git 병합 방식에 대한 이해가 부족해 충돌 및 오류가 발생했습니다. 이로 인해 코드 중복, 일부 코드 유실 등의 문제가 생겼습니다.",
-        "Git의 브랜치 전략, PR(Pull Request) 작성 및 병합 방식에 대해 학습하고 팀원들과의 소통을 통해 병합 절차를 명확히 했습니다. 이후 병합 시 충돌을 사전에 방지하고, 안정적으로 소스를 병합할 수 있었습니다.",
-        "소스 병합에 앞서 작업 내용을 공유하고 병합 방식에 대해 논의하는 협업 습관이 정착되었고, 이후 병합 과정에서 큰 충돌 없이 안정적인 협업이 가능해졌습니다."
-      ],
       "designSystem": "/images/projects/dreamland/detail.png",
       "links": {
-        "github": "https://github.com/hy2s/puppyparty",
         "site": "https://hy2s.github.io/puppyparty/"
       }
     }
   },
   {
-    "id": 6,
+    "id": "team-04",
+    "title": "방탈출의 정석 [방석]",
+    "subtitle": "방탈출 예약 웹사이트",
+    "categories": ["팀 프로젝트", "예약 시스템", "디자인 100%"],
+    "type": ["team", ""],
+    "images": {
+      "thumbnail": "/images/project/keystudio-pc.png",
+      "detail": "/images/projects/dreamland/detail.png"
+    },
+    "description": "방탈출카페 예약 시스템을 반영하여 실제 예약 흐름을 구현한 프로젝트입니다.",
+    "period": "2024.08 - 09 (2개월)",
+    "member": "3인 (디자인 1명, 프론트엔드 1명, 백엔드 1명)",
+    "details": {
+      "bgColor": "#C6AE80",
+      "overview": [
+        "주요 목표 : 전국 방탈출 테마 예약 시스템 UI/UX 구현 및 퍼블리싱",
+        "담당 역할 : 기획 10% 디자인 100%",
+        "사용 툴 및 기술 : HTML, CSS, javascript, jsp, Figma"
+      ],
+      "myRole": "/images/projects/dreamland/detail.png",
+      "features": ["예약 기능과 조회 및 취소 기능, 커뮤니티 기능이 있습니다."],
+      "myRoleDesign": ["메인페이지, 예약 페이지, 로그인/회원가입, 마이페이지, 로고의 디자인을 맡았습니다."],
+      "skillTool": [
+        "Frontend: html, css, javascript",
+        "Database: mySQL",
+        "Design: Figma, Photoshop"
+      ],
+      "designSystem": "/images/projects/dreamland/detail.png",
+      "links": {
+        "site": "https://www.figma.com/design/4Op0kYCFLTaNhYO5uGhPQU/%EB%B0%A9%EC%84%9D?node-id=0-1&t=2NqhHUYsgT2TNiwm-1"
+      }
+    }
+  },
+  {
+    "id": "team-05",
+    "title": "DOG323",
+    "subtitle": "강아지 입분양 및 실종견 찾기 웹사이트",
+    "categories": ["졸업작품 프로젝트", "쇼핑몰", "디자인 100%"],
+    "type": ["team", ""],
+    "images": {
+      "thumbnail": "/images/project/keystudio-pc.png",
+      "detail": "/images/projects/dreamland/detail.png"
+    },
+    "description": "강아지를 분양·입양하거나 실종견을 찾고 제보할 수 있는 웹사이트를 구현한 팀 프로젝트입니다.",
+    "period": "2024.03 - 05 (3개월)",
+    "member": "3인 (디자인 1명, 프론트엔드 1명, 백엔드 1명)",
+    "details": {
+      "bgColor": "#FF9E00",
+      "overview": [
+        "주요 목표 : 강아지 입·분양 및 실종견 찾기 웹사이트의 UI/UX 구현 및 퍼블리싱",
+        "담당 역할 : 기획 50% 디자인 100% 개발 20%",
+        "사용 툴 및 기술 : HTML, CSS, javascript, jsp, Figma"
+      ],
+      "myRole": "/images/projects/dreamland/detail.png",
+      "features": ["강아지를 입양/분양 신청, 실종견 찾기 및 제보 게시판, 후원, 전단지 제작 기능이 있습니다."],
+      "myRoleDesign": ["사이트 전체 디자인 담당을 맡았고, js를 활용한 후원 금액 선택 페이지와 분양견 상세페이지 개발을 맡았습니다."],
+      "skillTool": [
+        "Frontend: html, css, javascript",
+        "Database: mySQL",
+        "Design: Figma, Photoshop"
+      ],
+      "designSystem": "/images/projects/dreamland/detail.png",
+      "links": {
+        "site": "https://www.figma.com/design/9nwifOVKmrhUIldYxkUkuF/DOG323?node-id=0-1&t=ifmKcV62DmpTqZUh-1"
+      }
+    }
+  },
+  {
+    "id": "single-01",
     "title": "끝말잇기 게임",
     "subtitle": "미니게임",
     "categories": ["React 기반", "개인 프로젝트", "미니게임"],
@@ -150,7 +213,6 @@
         "담당 역할 : 100% 개인 작업",
         "사용 툴 및 기술 : React, SCSS, Figma"
       ],
-      "myRole": "/images/projects/dreamland/detail.png",
       "features": [
         "1. 우리말샘 API를 활용하여 AI와 단어 대결하는 듯한 게임 로직 구현",
         "2. 모바일 기반 웹앱 스타일 UI/UX",
@@ -172,7 +234,7 @@
     }
   },
   {
-    "id": 7,
+    "id": "single-02",
     "title": "문화력 테스트",
     "subtitle": "미니게임",
     "categories": ["React 기반", "개인 프로젝트", "미니게임"],
@@ -191,7 +253,6 @@
         "담당 역할 : 100% 개인 작업",
         "사용 툴 및 기술 : React, SCSS, Figma"
       ],
-      "myRole": "/images/projects/dreamland/detail.png",
       "features": [
         "1. 4개의 주제 중 사용자가 원하는 주제를 선택하여 퀴즈를 풀 수 있도록 구성",
         "2. 게임 종료 시 최종 점수를 시각적으로 표시",
@@ -205,6 +266,191 @@
         "보기를 클릭하면 바로 다음 문제로 넘어가 정답을 고민하는 동안 선택지를 바꿀 수 없던 문제가 발생했습니다.",
         "보기를 클릭하고 다음으로 넘어가는 버튼을 만들어 사용자 경험을 최적화 하였습니다.",
         "마지막 결과 화면에서 최종 점수를 알 수 있지만, 어떤 문제에서 틀렸는지 사용자는 알 수 없어 결과 화면에서 틀린 문제들을 볼 수 있도록 개선하면 사용자 경험을 더욱 최적화 할 수 있을 것 같습니다."
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/quiz",
+        "site": "https://hy2s.github.io/quiz/"
+      }
+    }
+  },
+  {
+    "id": "single-03",
+    "title": "Momentum",
+    "subtitle": "투두리스트와 메모 및 날씨 정보 제공 기능",
+    "categories": ["React 기반", "개인 프로젝트", "투두리스트"],
+    "type": ["single", "react"],
+    "images": {
+      "thumbnail": "/images/project/quiz-mobile.png",
+      "detail": "/images/project/quiz-mobile.png"
+    },
+    "description": "사용자의 하루를 효율적으로 시작할 수 있도록 시간, 투두리스트, 메모 등을 한 화면에 제공하는 대시보드입니다.",
+    "period": " 2025. 06. 24 - 06. 25 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#073552",
+      "overview": [
+        "주요 목표 : 시간, 투두리스트, 메모, 날씨 기능이 들어간 대시보드 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : React, SCSS, Figma"
+      ],
+      "features": [
+        "1. localStorage 활용한 투두리스트, 메모 기능",
+        "2. 날씨 API 연동하여 실시간 날씨 정보 제공",
+        "3. 실시간 시간 정보 제공",
+        "4. 다크모드 & 라이트모드 구현",
+        "5. 새로고침 시 명언 랜덤 출력"
+      ],
+      "skillTool": [
+        "Frontend: React, SCSS",
+        "Design: Figma"
+      ],
+      "Refactoring": [
+        "메모를 적고 새로고침하거나 재접속 했을 때 메모 내용이 없어지는 문제가 발생했습니다.",
+        "메모 저장 버튼을 만들어 메모를 적고 저장하면 localstorage에 저장되고, 추가로 삭제 버튼을 만들어 저장된 메모를 삭제할 수 있도록 만들어 사용자 경험을 최적화 할 수 있었습니다.",
+        "저장하거나 삭제한 후 사용자에게 “메모가 저장되었습니다” 와 같은 확인 메시지 또는 토스트 알림 제공하여 사용자 피드백을 추가하면 사용자 경험을 더욱 최적화 할 수 있을 것 같습니다."
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/todate",
+        "site": "https://hy2s.github.io/todate/"
+      }
+    }
+  },
+  {
+    "id": "single-04",
+    "title": "Portfolio",
+    "subtitle": "GSAP 활용한 포트폴리오 사이트",
+    "categories": ["개인 프로젝트", "GSAP", "애니메이션"],
+    "type": ["single", ""],
+    "images": {
+      "thumbnail": "/images/project/quiz-mobile.png",
+      "detail": "/images/project/quiz-mobile.png"
+    },
+    "description": "GSAP을 활용하여 스크롤에 따라 애니메이션 기능을 구현한 포트폴리오 웹사이트입니다.",
+    "period": " 2025. 06. 02 - 06. 03 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#2A57E2",
+      "overview": [
+        "주요 목표 : GSAP을 활용한 스크롤 애니메이션 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS, javascript, GSAP"
+      ],
+      "features": [
+        "1. GSAP을 활용한 스크롤 애니메이션",
+        "2. transform을 활용한 hover 애니메이션",
+        "3. pc, 태블릿, 모바일 반응형 구현"
+      ],
+      "skillTool": [
+        "Frontend:  javascript, GSAP, CSS"
+      ],
+      "Refactoring": [
+        "스크롤의 start 시점을 너무 빨리 설정해서 스크롤을 내리자마자 애니메이션 효과 빠르게 끝나버리는 문제가 발생했습니다.",
+        "스크롤의 start 시점을 보다 천천히 낮춰 컨텐츠를 지나치지 않고 알맞는 타이밍에 볼 수 있도록 개선하였습니다.",
+        "문제가 되었던 div 위쪽에 여백을 조금 만들어서 스크롤 start 시점이 여백을 거쳐서 보다 부드러운 화면 전환이 될 수 있도록 개선하면 좋을 것 같습니다."
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/blueproject",
+        "site": "https://hy2s.github.io/blueproject/index.html"
+      }
+    }
+  },
+  {
+    "id": "single-05",
+    "title": "NEXTGROUND",
+    "subtitle": "ChatGPT를 활용한 리디자인",
+    "categories": ["개인 프로젝트", "재기획", "리디자인"],
+    "type": ["single", ""],
+    "images": {
+      "thumbnail": "/images/project/quiz-mobile.png",
+      "detail": "/images/project/quiz-mobile.png"
+    },
+    "description": "ChatGPT를 활용하여 기존 사이트의 주제와 컨텐츠 내용을 재기획하고, 리디자인한 웹 사이트입니다.",
+    "period": " 2025. 05 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#2463EB",
+      "overview": [
+        "주요 목표 : GSAP을 활용한 스크롤 애니메이션 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS, Figma, Photoshop"
+      ],
+      "features": [
+        "1. ChatGPT를 활용한 주제 및 컨텐츠 재기획",
+        "2. 레이아웃, 폰트, 색상을 변경한 리디자인"
+      ],
+      "skillTool": [
+        "Frontend: html, CSS, Figma, Photoshop"
+      ],
+      "Refactoring": [
+        "메인 header 부분이 가로 사이즈가 줄었을 때 글씨가 줄바꿈되어 사용자 경험을 저하하는 문제가 발생했습니다.",
+        "메인 header에 min-width를 설정하여 가로 사이즈가 줄었을 때 정해진 사이즈보다 줄어들지 않도록 개선하였습니다.",
+        "태블릿 사이즈는 반응형처리를 하지 못해 모든 기기에 반응형처리 될 수 있도록 개선하면 좋을 것 같습니다."
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/NEXTGROUND",
+        "site": "https://hy2s.github.io/NEXTGROUND/index.html"
+      }
+    }
+  },
+  {
+    "id": "single-06",
+    "title": "Bestival",
+    "subtitle": "전국 축제 정보 모바일 앱",
+    "categories": ["개인 프로젝트", "기획 100%", "디자인 100%"],
+    "type": ["single", ""],
+    "images": {
+      "thumbnail": "/images/project/quiz-mobile.png",
+      "detail": "/images/project/quiz-mobile.png"
+    },
+    "description": "직접 기획한 아이디어를 바탕으로 와이어프레임과 디자인 시스템을 구축하여 디자인한 프로젝트입니다.",
+    "period": " 2025. 04 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#7C00FE",
+      "overview": [
+        "주요 목표 : 초기 기획부터 와이어 프레임, 디자인 시스템 과정을 거친 최종 디자인 제작",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS, Figma, Photoshop"
+      ],
+      "features": [
+        "1. 기획 및 아이디어 도출 100%, 디자인 100% 작업",
+        "2. 와이어 프레임 및 Figma를 활용한 프로토타입 설계"
+      ],
+      "skillTool": [
+        "Design: Figma, Photoshop"
+      ],
+      "links": {
+        "site": "https://www.figma.com/design/fNFeFrZ2VgNDSnqpO5ggyC/Bestival?node-id=6-54&t=qmYqX4icfAaq8qdI-1"
+      }
+    }
+  },
+  {
+    "id": "clone-01",
+    "title": "Netflix",
+    "subtitle": "Clone-Coding",
+    "categories": ["Clone-Coding", "React 기반", "외부 API"],
+    "type": ["clone", "react"],
+    "images": {
+      "thumbnail": "/images/project/quiz-mobile.png",
+      "detail": "/images/project/quiz-mobile.png"
+    },
+    "description": "Netflix 사이트(www.netflix.com)를 clonecoding했습니다.",
+    "period": " 2025. 06. 24 - 06. 25 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#941018",
+      "overview": [
+        "주요 목표 : 외부 API 연동 및 컴포넌트 단위 구조 설계",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : React, SCSS"
+      ],
+      "learned" : [
+        "1. 외부 API 연결을 통한 데이터 활용법",
+        "2. 컴포넌트 단위로 구조를 설계하고 재사용하는 방식",
+        "3. SCSS를 활용한 일관된 스타일 적용"
+      ],
+      "skillTool": [
+        "Frontend: React, SCSS"
       ],
       "links": {
         "github": "https://github.com/hy2s/quiz",
