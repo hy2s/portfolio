@@ -15,7 +15,7 @@ const Contact = () => {
             <IoLogoGithub />
             <h2>GitHub</h2>
           </a>
-          <a href="#">
+          <a href="">
             <IoMail />
             <h2>rlagptmd1021@gmail.com</h2>
           </a>

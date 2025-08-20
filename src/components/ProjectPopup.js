@@ -9,8 +9,8 @@ const ProjectPopup = ({id, project, onClose}) => {
   if (!item) return null;
 
   return (
-    <div className="project-popup">
-      <div className="popup-box">
+    <div className="project-popup" onClick={onClose}>
+      <div className="popup-box" onClick={(e) => e.stopPropagation()}>
         <div className="popup-top" style={{backgroundColor: item.details.bgColor}}>
           <div className="popup-top-1">
             <ul className="project-tag">
@@ -31,7 +31,7 @@ const ProjectPopup = ({id, project, onClose}) => {
             <p>{item.member}</p>
           </div>
           <div className="popup-img">
-            <img src={item.images.detail} />
+            <img src={item.images} alt="project-image" />
           </div>
         </div>
         <div className="popup-content">
@@ -50,7 +50,7 @@ const ProjectPopup = ({id, project, onClose}) => {
             <ul className="popup-section">
               <li>제작 기여도</li>
               <li>
-                <img src={item.details.myRole}/>
+                <img src={item.details.myRole} alt="project-myrole"/>
               </li>
             </ul>
             )}
@@ -124,10 +124,11 @@ const ProjectPopup = ({id, project, onClose}) => {
           {item.details.designSystem && (
               <ul className="popup-section">
                 <li>디자인 시스템</li>
-                <li><img src={item.details.designSystem}/></li>
+                <li><img src={item.details.designSystem} alt="design-system"/></li>
               </ul>
             )}
         </div>
+      </div>
       <div className="popup-side">
         <div className="close-btn" onClick={()=>onClose()}>
           <IoClose />
@@ -149,7 +150,6 @@ const ProjectPopup = ({id, project, onClose}) => {
           </div>
           <p>Site URL</p>
         </a>
-      </div>
       </div>
       </div>
     </div>

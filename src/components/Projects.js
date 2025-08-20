@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ProjectPopup from './ProjectPopup';
 import project from "../data/projects.json";
 
@@ -7,12 +7,23 @@ const Projects = () => {
   const [activeTab, setActiveTab] = useState("all");
   const [selectedId, setSelectedId] = useState(null);
 
+  useEffect(() => {
+    if (popup) {
+      document.body.style.overflow = "hidden";  // 스크롤 막기
+    } else {
+      document.body.style.overflow = "auto";    // 다시 복구
+    }
+
+    return () => { document.body.style.overflow = "auto"; }; 
+  }, [popup]);
+
   const handlePopup = (id) => {
     setPopup(true);
     setSelectedId(id);
   }
 
   return (
+    <>
     <section id="projects">
       <div className="section-wrap">
         <div className="section-title">
@@ -54,13 +65,15 @@ const Projects = () => {
                     key={idx}
                   >
                     <div className='card-img'>
-                      <img src={item.images.thumbnail} alt='project-thumbnail'/>
+                      <img src={item.images} alt='project-thumbnail'/>
                     </div>
                     <div className='project-content'>
                       <ul className='project-tag'>
-                        <li>{item.categories[0]}</li>
-                        <li>{item.categories[1]}</li>
-                        <li>{item.categories[2]}</li>
+                        {
+                          item.categories.map((category, idx)=>{
+                            return ( <li key={idx}>{category}</li>)
+                          })
+                        }
                       </ul>
                       <h2>{item.title}</h2>
                       <p>{item.subtitle}</p>
@@ -71,15 +84,16 @@ const Projects = () => {
           }
         </div>
       </div>
-      {
-        popup && 
-          <ProjectPopup 
-            id={selectedId}
-            project={project}
-            onClose={()=>{ setPopup(false); setSelectedId(null) }}
-          />
-      }
     </section>
+    {
+      popup && 
+        <ProjectPopup 
+          id={selectedId}
+          project={project}
+          onClose={()=>{ setPopup(false); setSelectedId(null) }}
+        />
+    }
+    </>
   );
 };
 

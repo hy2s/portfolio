@@ -1,6 +1,5 @@
 import { FiChevronsDown } from "react-icons/fi";
 import { HiMenu } from "react-icons/hi";
-import { Link } from "react-router-dom";
 
 const MainHeader = () => {
   return (

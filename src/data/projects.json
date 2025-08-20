@@ -5,10 +5,7 @@
     "subtitle": "놀이공원 사전 주차 예약 전용 웹앱",
     "categories": ["React 기반", "팀 프로젝트", "예약 시스템"],
     "type": ["team", "react"],
-    "images": {
-      "thumbnail": "/images/project/dreamland-pc.png",
-      "detail": "/images/project/dreamland-detail.png"
-    },
+    "images": "/images/project/dreamland.png",
     "description": "실제 예약 과정을 반영하여 놀이공원 방문객을 위한 사전 주차 예약 기능을 구현한 웹앱 프로젝트입니다.",
     "period": "2025. 07. 21 - 08.01 (10일)",
     "member": "5인 (프론트엔드 전담 5인 팀 구성)",
@@ -41,8 +38,8 @@
       ],
       "designSystem": "/images/projects/dreamland/detail.png",
       "links": {
-        "github": "https://github.com/example/dreamland",
-        "site": "https://example.com/dreamland"
+        "github": "https://github.com/hy2s/dreamland",
+        "site": "https://hy2s.github.io/dreamland/"
       }
     }
   },
@@ -52,10 +49,7 @@
     "subtitle": "반려견 이벤트 용품 쇼핑몰 웹사이트",
     "categories": ["React 기반", "팀 프로젝트", "쇼핑몰"],
     "type": ["team", "react"],
-    "images": {
-      "thumbnail": "/images/project/puppyparty-pc.png",
-      "detail": "/images/projects/dreamland/detail.png"
-    },
+    "images": "/images/project/puppyparty.png",
     "description": "반려견 이벤트 용품 쇼핑몰을 기획하여 상품목록, 상세보기, 장바구니 흐름까지 구현한 React 기반 쇼핑몰 프로젝트입니다.",
     "period": "2025. 07. 07 - 07.11 (5일)",
     "member": "4인 (프론트엔드 전담 4인 팀 구성)",
@@ -97,10 +91,7 @@
     "subtitle": "키보드 커스터마이징 웹사이트",
     "categories": ["팀 프로젝트", "커스터마이징", "디자인 100%"],
     "type": ["team", ""],
-    "images": {
-      "thumbnail": "/images/project/keystudio-pc.png",
-      "detail": "/images/projects/dreamland/detail.png"
-    },
+    "images": "/images/project/keystudio.png",
     "description": "3D로 구현된 키보드 화면에서 사용자가 원하는 키보드를 커스터마이징하고, 쇼핑몰 기능까지 구현한 프로젝트입니다.",
     "period": "2025.02 - 05 (3개월)",
     "member": "4인 (디자인 1명, 프론트엔드 1명, 백엔드 2명)",
@@ -131,10 +122,7 @@
     "subtitle": "방탈출 예약 웹사이트",
     "categories": ["팀 프로젝트", "예약 시스템", "디자인 100%"],
     "type": ["team", ""],
-    "images": {
-      "thumbnail": "/images/project/keystudio-pc.png",
-      "detail": "/images/projects/dreamland/detail.png"
-    },
+    "images": "/images/project/roomescape.png",
     "description": "방탈출카페 예약 시스템을 반영하여 실제 예약 흐름을 구현한 프로젝트입니다.",
     "period": "2024.08 - 09 (2개월)",
     "member": "3인 (디자인 1명, 프론트엔드 1명, 백엔드 1명)",
@@ -165,10 +153,7 @@
     "subtitle": "강아지 입분양 및 실종견 찾기 웹사이트",
     "categories": ["졸업작품 프로젝트", "쇼핑몰", "디자인 100%"],
     "type": ["team", ""],
-    "images": {
-      "thumbnail": "/images/project/keystudio-pc.png",
-      "detail": "/images/projects/dreamland/detail.png"
-    },
+    "images": "/images/project/dog323.png",
     "description": "강아지를 분양·입양하거나 실종견을 찾고 제보할 수 있는 웹사이트를 구현한 팀 프로젝트입니다.",
     "period": "2024.03 - 05 (3개월)",
     "member": "3인 (디자인 1명, 프론트엔드 1명, 백엔드 1명)",
@@ -199,15 +184,12 @@
     "subtitle": "미니게임",
     "categories": ["React 기반", "개인 프로젝트", "미니게임"],
     "type": ["single", "react"],
-    "images": {
-      "thumbnail": "/images/project/wordgame-mobile.png",
-      "detail": "/images/projects/netflix/detail.png"
-    },
+    "images": "/images/project/wordgame.png",
     "description": "오픈 API를 활용하여 컴퓨터와 사용자가 단어로 대결하는 끝말잇기 게임을 구현하였습니다.",
     "period": "2025. 06. 20 - 06. 21 (2일)",
     "member": "100% 개인 작업",
     "details": {
-      "bgColor": "#0FAB9E",
+      "bgColor": "#4FC3F7",
       "overview": [
         "주요 목표 : 오픈 API를 활용하여 컴퓨터와 사용자가 대결하는 게임 구현",
         "담당 역할 : 100% 개인 작업",
@@ -239,10 +221,7 @@
     "subtitle": "미니게임",
     "categories": ["React 기반", "개인 프로젝트", "미니게임"],
     "type": ["single", "react"],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/quizgame.png",
     "description": "영화, 드라마, 노래, 가수로 주제를 나눠 퀴즈를 맞혀 점수를 매기는 미니게임입니다.",
     "period": " 2025. 06. 16 - 06. 17 (2일)",
     "member": "100% 개인 작업",
@@ -279,15 +258,12 @@
     "subtitle": "투두리스트와 메모 및 날씨 정보 제공 기능",
     "categories": ["React 기반", "개인 프로젝트", "투두리스트"],
     "type": ["single", "react"],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/momentum.png",
     "description": "사용자의 하루를 효율적으로 시작할 수 있도록 시간, 투두리스트, 메모 등을 한 화면에 제공하는 대시보드입니다.",
     "period": " 2025. 06. 24 - 06. 25 (2일)",
     "member": "100% 개인 작업",
     "details": {
-      "bgColor": "#073552",
+      "bgColor": "#989696",
       "overview": [
         "주요 목표 : 시간, 투두리스트, 메모, 날씨 기능이 들어간 대시보드 구현",
         "담당 역할 : 100% 개인 작업",
@@ -321,10 +297,7 @@
     "subtitle": "GSAP 활용한 포트폴리오 사이트",
     "categories": ["개인 프로젝트", "GSAP", "애니메이션"],
     "type": ["single", ""],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/portfolio.png",
     "description": "GSAP을 활용하여 스크롤에 따라 애니메이션 기능을 구현한 포트폴리오 웹사이트입니다.",
     "period": " 2025. 06. 02 - 06. 03 (2일)",
     "member": "100% 개인 작업",
@@ -356,14 +329,48 @@
   },
   {
     "id": "single-05",
+    "title": "ABOUT ME",
+    "subtitle": "슬라이드 자기소개 웹사이트",
+    "categories": ["개인 프로젝트", "슬라이드", "자기소개"],
+    "type": ["single", ""],
+    "images": "/images/project/aboutme.png",
+    "description": "js를 활용하여 자동/수동 슬라이드 기능을 구현한 자기소개 웹사이트입니다.",
+    "period": " 2025. 05 (2일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#457B9D",
+      "overview": [
+        "주요 목표 : 자동/수동 슬라이드 기능과 탭에 따른 슬라이드 전환 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS, javascript, Figma, Photoshop"
+      ],
+      "features": [
+        "1. 부드럽게 전환되는 자동 슬라이드 효과 구현",
+        "2. 자동 슬라이드 및 멈춤 기능 구현",
+        "3. 탭 선택에 따른 슬라이드 전환 기능 구현"
+      ],
+      "skillTool": [
+        "Frontend:  html, CSS, javascript",
+        "Design: Figma, Photoshop"
+      ],
+      "Refactoring": [
+        "원래는 데스크탑 버전만 제작할 계획이었고, 1920 해상도 모니터를 기준으로 작업을 진행했습니다. 그러나 1440 해상도에 대한 고려가 부족했고, 모든 폰트 사이즈를 px 단위로 지정한 탓에 화면 크기가 줄어들면 폰트 크기를 일일이 다시 설정해야 하는 문제가 발생했습니다.",
+        "폰트 사이즈를 px 단위 대신 vw 단위로 변경하여, 화면 크기에 따라 폰트 크기도 함께 상대적으로 줄어들도록 개선하였습니다.",
+        "폰트 사이즈를 vw 단위로 변경했지만, 각 요소의 여백은 자동으로 조정되지 않기 때문에 반응형 처리를 별도로 적용하는 것이 사용자 경험을 최적화하는 데 도움이 될 것 같습니다."
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/ABOUT_ME",
+        "site": "https://hy2s.github.io/ABOUT_ME/index.html"
+      }
+    }
+  },
+  {
+    "id": "single-06",
     "title": "NEXTGROUND",
-    "subtitle": "ChatGPT를 활용한 리디자인",
+    "subtitle": "부트캠프 웹사이트",
     "categories": ["개인 프로젝트", "재기획", "리디자인"],
     "type": ["single", ""],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/nextground.png",
     "description": "ChatGPT를 활용하여 기존 사이트의 주제와 컨텐츠 내용을 재기획하고, 리디자인한 웹 사이트입니다.",
     "period": " 2025. 05 (2일)",
     "member": "100% 개인 작업",
@@ -393,15 +400,12 @@
     }
   },
   {
-    "id": "single-06",
+    "id": "single-07",
     "title": "Bestival",
     "subtitle": "전국 축제 정보 모바일 앱",
     "categories": ["개인 프로젝트", "기획 100%", "디자인 100%"],
     "type": ["single", ""],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/bestival.png",
     "description": "직접 기획한 아이디어를 바탕으로 와이어프레임과 디자인 시스템을 구축하여 디자인한 프로젝트입니다.",
     "period": " 2025. 04 (2일)",
     "member": "100% 개인 작업",
@@ -430,10 +434,7 @@
     "subtitle": "Clone-Coding",
     "categories": ["Clone-Coding", "React 기반", "외부 API"],
     "type": ["clone", "react"],
-    "images": {
-      "thumbnail": "/images/project/quiz-mobile.png",
-      "detail": "/images/project/quiz-mobile.png"
-    },
+    "images": "/images/project/netflix.png",
     "description": "Netflix 사이트(www.netflix.com)를 clonecoding했습니다.",
     "period": " 2025. 06. 24 - 06. 25 (2일)",
     "member": "100% 개인 작업",
@@ -453,8 +454,179 @@
         "Frontend: React, SCSS"
       ],
       "links": {
-        "github": "https://github.com/hy2s/quiz",
-        "site": "https://hy2s.github.io/quiz/"
+        "github": "https://github.com/hy2s/netflix",
+        "site": "https://hy2s.github.io/netflix/"
+      }
+    }
+  },
+  {
+    "id": "clone-02",
+    "title": "Airbnb",
+    "subtitle": "Clone-Coding",
+    "categories": ["Clone-Coding", "flex", "반응형 레이아웃"],
+    "type": ["clone", ""],
+    "images": "/images/project/airbnb.png",
+    "description": "Airbnb 사이트(www.airbnb.co.kr)를 clonecoding했습니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#FF5A5F",
+      "overview": [
+        "주요 목표 : 레이아웃 구조 설계 및 반응형 처리",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS"
+      ],
+      "learned" : [
+        "1. flex와 grid를 활용한 레이아웃 구조 설계 방식",
+        "2. pc, 태블릿, 모바일 반응형 구현"
+      ],
+      "skillTool": [
+        "Frontend: html, CSS"
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/airbnb",
+        "site": "https://hy2s.github.io/airbnb/index.html"
+      }
+    }
+  },
+  {
+    "id": "clone-03",
+    "title": "TESLA",
+    "subtitle": "Clone-Coding",
+    "categories": ["Clone-Coding", "영상 삽입", "반응형 레이아웃"],
+    "type": ["clone", ""],
+    "images": "/images/project/tesla.png",
+    "description": "Airbnb 사이트(www.airbnb.co.kr)를 clonecoding했습니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#E82127",
+      "overview": [
+        "주요 목표 : 동영상 삽입 및 반응형 레이아웃 처리",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS"
+      ],
+      "learned" : [
+        "1. flex를 활용한 레이아웃 구조 설계 방식",
+        "2. pc, 태블릿, 모바일 반응형 구현",
+        "3. 영상 삽입 방법"
+      ],
+      "skillTool": [
+        "Frontend: html, CSS"
+      ],
+      "links": {
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/Tesla",
+        "site": "https://hy2s.github.io/Tesla/index.html"
+      }
+    }
+  },
+  {
+    "id": "practical-01",
+    "title": "GSAP",
+    "subtitle": "GSAP 스크롤 애니메이션",
+    "categories": ["PRACTICAL", "GSAP", "반응형"],
+    "type": ["practical", ""],
+    "images": "/images/project/gsapblog.png",
+    "description": "GSAP의 스크롤 애니메이션 기능을 연습하기 위한 실습 웹사이트입니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#AB7835",
+      "overview": [
+        "주요 목표 : GSAP을 활용한 스크롤 애니메이션 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, CSS, javascript, GSAP"
+      ],
+      "links": {
+        "site": "https://hy2s.github.io/site/index.html"
+      }
+    }
+  },
+  {
+    "id": "practical-02",
+    "title": "grid",
+    "subtitle": "grid 레이아웃 & transform",
+    "categories": ["PRACTICAL", "grid", "레이아웃"],
+    "type": ["practical", ""],
+    "images": "/images/project/grid.png",
+    "description": "grid 레이아웃과 transform을 연습하기 위한 실습 웹사이트입니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#333333",
+      "overview": [
+        "주요 목표 : grid 활용한 레이아웃 구현 및 애니메이션 적용",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, javascript, css"
+      ],
+      "links": {
+        "site": "https://hy2s.github.io/grid/index.html"
+      }
+    }
+  },
+  {
+    "id": "practical-03",
+    "title": "Pinterest",
+    "subtitle": "grid 반응형 레이아웃",
+    "categories": ["PRACTICAL", "grid", "반응형"],
+    "type": ["practical", ""],
+    "images": "/images/project/pinterest.png",
+    "description": "grid 반응형 레이아웃을 연습하기 위한 실습 웹사이트입니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#F784B3",
+      "overview": [
+        "주요 목표 : grid 활용한 레이아웃 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, javascript, css"
+      ],
+      "links": {
+        "site": "https://hy2s.github.io/pinterest/index.html"
+      }
+    }
+  },
+  {
+    "id": "practical-04",
+    "title": "bookstore",
+    "subtitle": "transform 활용",
+    "categories": ["PRACTICAL", "transform"],
+    "type": ["practical", ""],
+    "images": "/images/project/bookstore.png",
+    "description": "transform을 연습하기 위한 실습 웹사이트입니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#6699CC",
+      "overview": [
+        "주요 목표 : grid 활용한 레이아웃 구현",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, css"
+      ],
+      "links": {
+        "site": "https://hy2s.github.io/bookstore/index.html"
+      }
+    }
+  },
+  {
+    "id": "practical-05",
+    "title": "LOGGER",
+    "subtitle": "블로그형 레이아웃 구조 설계",
+    "categories": ["PRACTICAL", "블로그형"],
+    "type": ["practical", ""],
+    "images": "/images/project/logger.png",
+    "description": "html, css를 연습하기 위한 실습 웹사이트입니다.",
+    "period": " 2025. 04 (1일)",
+    "member": "100% 개인 작업",
+    "details": {
+      "bgColor": "#5D9AB2",
+      "overview": [
+        "주요 목표 : html, css를 활용한 블로그형 레이아웃 구조 설계",
+        "담당 역할 : 100% 개인 작업",
+        "사용 툴 및 기술 : html, css"
+      ],
+      "links": {
+        "site": "https://hy2s.github.io/LOGGER/index.html"
       }
     }
   }

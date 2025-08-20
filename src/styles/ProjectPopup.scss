@@ -4,14 +4,16 @@
   padding: 8rem 0;
   background: rgba(55, 55, 55, 0.6);
   @include flex(row, space-between, flex-start);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 10000;
+  overflow-y: auto;
   .popup-box {
-    width: 82%;
-    max-width: 1400px;
+    width: 80%;
+    // max-width: 1400px;
     margin: 0 auto;
+    position: relative;
     .popup-top {
       position: relative;
       padding: 5.9rem;
@@ -113,46 +115,47 @@
         }
       }
     }
-    .popup-side {
-      @include flex(column, center, flex-start);
-      gap: 1.7rem;
-      position: fixed;
-      top: 8rem;
-      right: 3%;
-      @media (min-width: 1440px) {
-        right: 5rem;
+  }
+  .popup-side {
+    width: 5%;
+    @include flex(column, center, flex-start);
+    gap: 1.7rem;
+    position: fixed;
+    top: 8rem;
+    right: 3%;
+    // @media (min-width: 1440px) {
+    //   right: 5rem;
+    // }
+    .close-btn {
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      background-color: var(--color-gray100);
+      border-radius: 50px;
+      @include flex();
+      svg {
+        color: var(--color-white);
+        font-size: 3.5rem;
       }
-      .close-btn {
-        cursor: pointer;
+    }
+    .link-btn {
+      cursor: pointer;
+      div {
+        background-color: var(--color-white);
+        border-radius: 50px;
         width: 50px;
         height: 50px;
-        background-color: var(--color-gray100);
-        border-radius: 50px;
         @include flex();
         svg {
-          color: var(--color-white);
-          font-size: 3.5rem;
+          font-size: 3rem;
         }
       }
-      .link-btn {
-        cursor: pointer;
-        div {
-          background-color: var(--color-white);
-          border-radius: 50px;
-          width: 50px;
-          height: 50px;
-          @include flex();
-          svg {
-            font-size: 3rem;
-          }
-        }
-        p {
-          font-size: 1.2rem;
-          font-weight: 400;
-          color: var(--color-white);
-          text-align: center;
-          margin-top: 0.3rem;;
-        }
+      p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--color-white);
+        text-align: center;
+        margin-top: 0.3rem;;
       }
     }
   }
