@@ -2,66 +2,88 @@
   height: 100vh;
   background-color: var(--color-black);
   .main-wrap {
-    max-width: $desktop-size;
+    max-width: 1440px;
     height: 100%;
     margin: 0 auto;
     padding: 60px 70px;
     background-repeat: no-repeat;
-    @include flex(column, space-between, center);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     gap: 50px;
-    @include tablet {
-      background-size: 100%;
-      background-position: center left;
-      padding: 60px 60px;
-    }
-    > p {
+    .update {
       width: 100%;
       text-align: right;
       color: var(--color-gray80);
       font-size: 1.8rem;
       font-weight: 400;
     }
+
     .main-content {
       width: 100%;
-      @include flex(row, space-between, flex-end);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
       .main-left {
-        @include flex(column, center, flex-start);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 15px;
         color: var(--color-white);
+
+        > * {
+          opacity: 0; // 초기 opacity 0
+        }
+
         p {
           font-size: 4rem;
           font-weight: 400;
         }
+
         h2 {
           font-size: 6rem;
           font-weight: 400;
+
           span {
             font-weight: 700;
           }
         }
+
         h1 {
           font-size: 8rem;
           font-weight: 400;
+
           span {
             font-weight: 800;
             color: var(--color-primary);
           }
         }
       }
+
       .main-nav {
-        @include flex(column, center, flex-end);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         gap: 20px;
         > * {
           font-size: 3.5rem;
           font-weight: 700;
           color: var(--color-white);
           cursor: pointer;
+          transition: 0.5s;
+          &:hover:not(svg) {
+            color: var(--color-primary);
+          }
         }
       }
     }
+
     .scroll-icon {
       font-size: 7rem;
-      color: var(--color-gray80);
+      color: #ccc;
     }
   }
 }

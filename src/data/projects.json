@@ -16,7 +16,7 @@
         "담당 역할 : 팀장 / 기획 20% / 디자인 50% / 개발 20%",
         "사용 툴 및 기술 : React, React-Router, React-calendar, SCSS, Supabase, Figma, Git, Github"
       ],
-      "myRole": "/images/projects/dreamland/detail.png",
+      "myRole": "/images/project/dreamland-myrole.png",
       "features": [
         "1. 실시간 잔여석 확인 및 예약 기능",
         "2. 예약 조회 및 취소 (CRUD 중 C/R/D 기능 구현)",
@@ -36,7 +36,7 @@
         "모든 컴포넌트를 감싸고 있는 부모 영역에 content 영역으로 따로 묶어 min-height: calc(100vh - 140px); 을 주었습니다. \nheight 값이 줄면 최소 높이는 메뉴바를 제외한 컨텐츠 영역만 남게 되어 모든 높이에 적용되도록 반응형 처리를 했습니다.",
         "고정된 레이아웃에서 발생하는 콘텐츠 가림 및 스크롤 이슈를 구조적으로 개선해, \n모든 화면 크기에서도 반응형이 되도록 콘텐츠 영역을 유연하게 처리했습니다."
       ],
-      "designSystem": "/images/projects/dreamland/detail.png",
+      "designSystem": "/images/project/dreamland-system.png",
       "links": {
         "github": "https://github.com/hy2s/dreamland",
         "site": "https://hy2s.github.io/dreamland/"

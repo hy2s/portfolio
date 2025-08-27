@@ -18,7 +18,7 @@
     .contact-btn-wrap {
       @include flex();
       gap: 2.2rem;
-      a {
+      > * {
         padding: 3rem 3.5rem;
         @include bg-style();
         @include flex();

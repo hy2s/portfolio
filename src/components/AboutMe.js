@@ -1,13 +1,72 @@
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useLayoutEffect, useRef } from "react";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const AboutMe = () => {
+  const sectionRef = useRef(null);
+  const titleRef = useRef(null);
+  const leftRef = useRef(null);
+  const rightRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const section = sectionRef.current;
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: section,
+        start: "top 80%",
+      },
+    });
+
+    // 타이틀
+    tl.fromTo(
+      titleRef.current.children,
+      { opacity: 0, y: 50 },
+      { opacity: 1, y: 0, duration: 0.8, ease: "power2.out", stagger: 0.15 }
+    );
+
+    // 왼쪽
+    tl.fromTo(
+      leftRef.current.children,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: "power2.out",
+      },
+      "-=0.4"
+    );
+
+    // 오른쪽
+    tl.fromTo(
+      rightRef.current.children,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        stagger: 0.15,
+        ease: "power2.out",
+      },
+      "-=0.6"
+    );
+
+    return () => tl.kill();
+  }, []);
+
   return (
-    <section id="aboutme">
+    <section id="aboutme" ref={sectionRef}>
       <div className="section-wrap">
-        <div className="section-title">
+        <div className="section-title" ref={titleRef}>
           <h3>저는 이런 사람이에요.</h3>
           <h1>ABOUT ME</h1>
         </div>
         <div className="aboutme-content">
-          <div className="left">
+          <div className="left" ref={leftRef}>
             <img src={`${process.env.PUBLIC_URL}/images/profile.png`} alt="프로필 사진"/>
             <div className="left-text-top">
               <p>“ The user experience is the product. ”</p>
@@ -24,7 +83,7 @@ const AboutMe = () => {
               </p>
             </div>
           </div>
-          <div className="right">
+          <div className="right" ref={rightRef}>
             <div className="right-card">
               <h3>강점 및 성향</h3>
               <h2>1px의 중요성, 그리고 함께하는 소통</h2>
