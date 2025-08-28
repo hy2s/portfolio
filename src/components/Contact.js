@@ -59,7 +59,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      style={{ backgroundImage: "url(/images/contact-background.png" }}
+      style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/contact-background.png)` }}
     >
       <div className="section-wrap" ref={sectionRef}>
         <hr />

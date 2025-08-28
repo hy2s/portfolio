@@ -31,7 +31,7 @@ const ProjectPopup = ({id, project, onClose}) => {
             <p>{item.member}</p>
           </div>
           <div className="popup-img">
-            <img src={item.images} alt="project-image" />
+            <img src={process.env.PUBLIC_URL + item.images} alt="project-image" />
           </div>
         </div>
         <div className="popup-content">
@@ -50,7 +50,7 @@ const ProjectPopup = ({id, project, onClose}) => {
             <ul className="popup-section">
               <li>제작 기여도</li>
               <li>
-                <img src={item.details.myRole} alt="project-myrole"/>
+                <img src={process.env.PUBLIC_URL + item.details.myRole} alt="project-myrole" />
               </li>
             </ul>
             )}
@@ -124,7 +124,7 @@ const ProjectPopup = ({id, project, onClose}) => {
           {item.details.designSystem && (
               <ul className="popup-section">
                 <li>디자인 시스템</li>
-                <li><img src={item.details.designSystem} alt="design-system"/></li>
+                <li><img src={process.env.PUBLIC_URL + item.details.designSystem} alt="design-system" /></li>
               </ul>
             )}
         </div>

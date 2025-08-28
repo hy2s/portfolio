@@ -124,7 +124,7 @@ const Projects = () => {
                   key={idx}
                 >
                   <div className='card-img'>
-                    <img src={item.images} alt='project-thumbnail'/>
+                    <img src={process.env.PUBLIC_URL + item.images} alt="project-thumbnail" />
                   </div>
                   <div className='project-content'>
                     <ul className='project-tag'>

@@ -52,7 +52,7 @@ const SkillTools = () => {
           {skills.map((skill, index)=>(
             <div className="skill-card" key={index}>
               {skill.badge && <p className="badge">{skill.badge}</p>}
-              <img src={skill.img} alt={skill.title} />
+              <img src={process.env.PUBLIC_URL + skill.img} alt={skill.title} />
               <h3>{skill.title}</h3>
             </div>
           ))}
