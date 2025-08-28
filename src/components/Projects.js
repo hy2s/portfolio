@@ -95,22 +95,24 @@ const Projects = () => {
     <>
       <section id="projects" ref={sectionRef}>
         <div className="section-wrap">
-          <div className="section-title" ref={titleRef}>
-            <h3>제가 만든 작품들을 소개할게요.</h3>
-            <h1>PROJECTS</h1>
-          </div>
-          <div className='nav-wrap' ref={navRef}>
-            <ul className="project-nav">
-              {["all","react","team","single","clone","practical"].map((tab, idx) => (
-                <li 
-                  key={idx}
-                  className={activeTab === tab ? "active" : ""}
-                  onClick={()=>{setActiveTab(tab)}}
-                >
-                  {tab.toUpperCase()}
-                </li>
-              ))}
-            </ul>
+          <div className='project-head'>
+            <div className="section-title" ref={titleRef}>
+              <h3>제가 만든 작품들을 소개할게요.</h3>
+              <h1>PROJECTS</h1>
+            </div>
+            <div className='nav-wrap' ref={navRef}>
+              <ul className="project-nav">
+                {["all","react","team","single","clone","practical"].map((tab, idx) => (
+                  <li 
+                    key={idx}
+                    className={activeTab === tab ? "active" : ""}
+                    onClick={()=>{setActiveTab(tab)}}
+                  >
+                    {tab.toUpperCase()}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
           <div className="project-card-wrap" ref={projectRef}>
             {project

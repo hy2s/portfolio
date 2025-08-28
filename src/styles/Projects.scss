@@ -5,27 +5,31 @@
   gap: 50px;
   background: $gradation-left;
   position: relative;
-  .project-nav {
-    padding: 1rem;
-    @include flex();
-    gap: 1rem;
-    background-color: var(--color-black);
-    border-radius: 50px;
-    li {
-      padding: 1.5rem 2.5rem;
+  .project-head {
+    width: 100%;
+    @include flex(row, space-between, flex-end);
+    .project-nav {
+      padding: 1rem;
+      @include flex();
+      gap: 1rem;
+      background-color: var(--color-black);
       border-radius: 50px;
-      font-size: 2rem;
-      font-weight: 600;
-      color: var(--color-gray80);
-      cursor: pointer;
-      user-select: none;
-      transition: 0.5s;
-      &:hover {
-        background-color: #424242;
-      }
-      &.active {
-        background-color: var(--color-white);
-        color: var(--color-primary);
+      li {
+        padding: 1.5rem 2.5rem;
+        border-radius: 50px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--color-gray80);
+        cursor: pointer;
+        user-select: none;
+        transition: 0.5s;
+        &:hover {
+          background-color: #424242;
+        }
+        &.active {
+          background-color: var(--color-white);
+          color: var(--color-primary);
+        }
       }
     }
   }
