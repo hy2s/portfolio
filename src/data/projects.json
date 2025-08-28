@@ -210,8 +210,8 @@
         "시간 제한이나 점수가 없어 대결이 끝나지 않는 부분에서 사용자가 흥미를 잃을 수 있기 때문에 시간 제한, N점 이상 달성 시 클리어 되는 등의 개선사항이 필요할 것 같습니다."
       ],
       "links": {
-        "github": "https://github.com/example/dreamland",
-        "site": "https://example.com/dreamland"
+        "github": "https://github.com/hy2s/hy2s.github.io/tree/main/WORDGAME",
+        "site": "https://hy2s.github.io/WORDGAME/index.html"
       }
     }
   },
