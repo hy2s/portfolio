@@ -5,11 +5,14 @@
   background: $gradation-left;
   .aboutme-content {
     @include flex();
-    gap: 54px;
+    gap: 70px;
     .left {
       flex: 4;
       @include flex(column, center, center);
       gap: 35px;
+      img {
+        width: 300px;
+      }
       .left-text-top {
         width: 100%;
         p {
@@ -22,9 +25,9 @@
           color: var(--color-white);
           font-size: 3rem;
           font-weight: 300;
-          line-height: 3.5rem;
+          line-height: 4rem;
           span {
-            font-weight: 800;
+            font-weight: 700;
           }
         }
       }

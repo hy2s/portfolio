@@ -69,7 +69,6 @@ const AboutMe = () => {
           <div className="left" ref={leftRef}>
             <img src={`${process.env.PUBLIC_URL}/images/profile.png`} alt="프로필 사진"/>
             <div className="left-text-top">
-              <p>“ The user experience is the product. ”</p>
               <h3>매사에 <span>역지사지</span>로 생각하며,<br/>
                   <span>사용자 경험</span>을 가장 중요하게 여깁니다.</h3>
             </div>

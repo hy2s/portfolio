@@ -8,10 +8,7 @@
     padding: 60px 70px;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    @include flex(column, space-between, center);
     gap: 50px;
     .update {
       width: 100%;
@@ -23,10 +20,7 @@
 
     .main-content {
       width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-
+      @include flex(row, space-between, center);
       .main-left {
         display: flex;
         flex-direction: column;
@@ -37,27 +31,23 @@
         > * {
           opacity: 0; // 초기 opacity 0
         }
-
         p {
-          font-size: 4rem;
-          font-weight: 400;
-        }
-
-        h2 {
-          font-size: 6rem;
-          font-weight: 400;
-
+          font-size: 3.2rem;
+          line-height: 1.5;
           span {
             font-weight: 700;
           }
         }
-
+        h2 {
+          font-size: 5rem;
+          font-weight: 600;
+        }
         h1 {
-          font-size: 8rem;
+          font-size: 7rem;
           font-weight: 400;
 
           span {
-            font-weight: 800;
+            font-weight: 700;
             color: var(--color-primary);
           }
         }
@@ -71,7 +61,7 @@
         > * {
           font-size: 3.5rem;
           font-weight: 700;
-          color: var(--color-white);
+          color: var(--color-gray80);
           cursor: pointer;
           transition: 0.5s;
           &:hover:not(svg) {
@@ -83,7 +73,7 @@
 
     .scroll-icon {
       font-size: 7rem;
-      color: #ccc;
+      color: #ccccccb9;
     }
   }
 }

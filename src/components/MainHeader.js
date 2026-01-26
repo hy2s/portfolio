@@ -1,7 +1,6 @@
 import gsap from "gsap";
 import { useLayoutEffect, useRef } from "react";
 import { FiChevronsDown } from "react-icons/fi";
-import { HiMenu } from "react-icons/hi";
 
 const MainHeader = () => {
   const leftRef = useRef(null);
@@ -39,15 +38,15 @@ const MainHeader = () => {
   return (
     <section id="main">
       <div className="main-wrap" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main-background.png)` }}>
-        <p className="update">Update. 25. 08. 12</p>
+        <p className="update">Update. 26. 01. 26</p>
         <div className="main-content">
           <div className="main-left" ref={leftRef}>
-            <p>안녕하세요,</p>
-            <h2><span>UI/UX 디자이너</span>를 꿈꾸는</h2>
-            <h1>저는 <span>김혜승</span>입니다.</h1>
+            {/* <p>안녕하세요,</p> */}
+            <p><span>역지사지</span>로 사용자를 이해하는</p>
+            <h2>ui/ux designer & Web Publisher</h2>
+            <h1><span>김혜승</span>입니다.</h1>
           </div>
           <div className="main-nav" ref={navRef}>
-            <HiMenu />
             <a href="#aboutme">ABOUT ME</a>
             <a href="#skilltools">SKILL TOOLS</a>
             <a href="#projects">PROJECTS</a>
