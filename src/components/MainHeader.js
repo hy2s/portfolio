@@ -38,7 +38,7 @@ const MainHeader = () => {
   return (
     <section id="main">
       <div className="main-wrap" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/images/main-background.png)` }}>
-        <p className="update">Update. 26. 01. 26</p>
+        <p className="update">Update. 26. 02. 20</p>
         <div className="main-content">
           <div className="main-left" ref={leftRef}>
             {/* <p>안녕하세요,</p> */}

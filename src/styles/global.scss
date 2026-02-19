@@ -7,9 +7,7 @@ html {
   letter-spacing: -0.02em;
   scroll-behavior: smooth;
   word-break: keep-all;
-  @include tablet {
-    font-size: 40%;
-  }
+  overflow-x: hidden;
 }
 
 body {
@@ -19,6 +17,7 @@ body {
 .section-wrap {
   width: 100%;
   max-width: $desktop-size;
+  min-width: $desktop-size;
   height: 100%;
   margin: 0 auto;
   padding: 60px 48px;
